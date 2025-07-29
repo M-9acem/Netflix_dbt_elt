@@ -1,0 +1,30 @@
+[0m22:12:09.252064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105734af0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106968b80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106969240>]}
+
+
+============================== 22:12:09.254295 | c63794bb-e2e1-4ec3-b04b-d70ff363b17f ==============================
+[0m22:12:09.254295 [info ] [MainThread]: Running with dbt=1.10.5
+[0m22:12:09.254569 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/kacemsoulaymane/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init netflix', 'send_anonymous_usage_stats': 'True'}
+[0m22:12:09.264522 [debug] [MainThread]: Starter project path: /Users/kacemsoulaymane/Desktop/projects/netflix dbt/venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m22:12:09.268188 [info ] [MainThread]: 
+Your new dbt project "netflix" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:12:09.268388 [info ] [MainThread]: Setting up your profile.
+[0m22:18:22.759687 [info ] [MainThread]: Profile netflix written to /Users/kacemsoulaymane/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:18:22.782224 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 373.57596, "process_in_blocks": "0", "process_kernel_time": 0.204719, "process_mem_max_rss": "123699200", "process_out_blocks": "0", "process_user_time": 0.831861}
+[0m22:18:22.784763 [debug] [MainThread]: Command `dbt init` succeeded at 22:18:22.784578 after 373.58 seconds
+[0m22:18:22.785531 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105734af0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10690b7f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10696bfa0>]}
+[0m22:18:22.786125 [debug] [MainThread]: Flushing usage events
+[0m22:18:23.725566 [debug] [MainThread]: An error was encountered while trying to flush usage events
