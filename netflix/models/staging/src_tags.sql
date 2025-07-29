@@ -1,8 +1,8 @@
 WITH raw_tags AS (
-    SELECT * FROM MOVIELENS..RAW.RAW_TAGS
+    SELECT * FROM MOVIELENS.RAW.RAW_TAGS
 )
 
-SELECT  
+SELECT
   userId AS user_id,
   movieId AS movie_id,
   tag,
