@@ -1,6 +1,7 @@
-version: 2
- 
- sources:
+version: 2 
+
+
+sources:
   - name: netflix
     schema: raw
     tables:
