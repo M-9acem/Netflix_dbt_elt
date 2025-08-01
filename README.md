@@ -24,13 +24,13 @@ The project follows a **medallion architecture** with the following layers:
 
 ##  Data Lineage
 
-![Data Lineage](../figures/lineage-graph.png)
+![Data Lineage](./figures/lineage-graph.png)
 
 *The above diagram shows the complete data lineage and dependencies between models in our dbt project.*
 
 ##  Analytics Capabilities
 
-![Snowflake Analysis](../figures/snowflake-analysis.png)
+![Snowflake Analysis](./figures/snowflake-analysis.png)
 
 *Example of complex analytical queries running on our transformed data in Snowflake.*
 
