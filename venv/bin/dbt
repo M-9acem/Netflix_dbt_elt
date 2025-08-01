@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/kacemsoulaymane/Desktop/projects/netflix dbt/venv/bin/python3.10" "$0" "$@"
+'''exec' "/Users/kacemsoulaymane/Desktop/projects/netflix dbt/venv/bin/python" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re
